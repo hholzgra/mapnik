@@ -322,6 +322,7 @@ endif()
 
 if(USE_SVG_RENDERER)
     target_sources(mapnik PRIVATE
+        svg/output/process_arc_symbolizer.cpp
         svg/output/process_line_symbolizer.cpp
         svg/output/process_polygon_symbolizer.cpp
         svg/output/process_symbolizers.cpp
